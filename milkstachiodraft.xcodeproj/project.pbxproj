@@ -14,6 +14,7 @@
 		BF2B88741BDDD26D00F0925E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2B88721BDDD26D00F0925E /* LaunchScreen.storyboard */; };
 		BF2B887F1BDDD26D00F0925E /* milkstachiodraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B887E1BDDD26D00F0925E /* milkstachiodraftTests.swift */; };
 		BF2B888A1BDDD26D00F0925E /* milkstachiodraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B88891BDDD26D00F0925E /* milkstachiodraftUITests.swift */; };
+		BF631D911BDDD65500EC41E6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BF631D901BDDD65500EC41E6 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BF2B88851BDDD26D00F0925E /* milkstachiodraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = milkstachiodraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2B88891BDDD26D00F0925E /* milkstachiodraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milkstachiodraftUITests.swift; sourceTree = "<group>"; };
 		BF2B888B1BDDD26D00F0925E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF631D901BDDD65500EC41E6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		BF2B885A1BDDD26D00F0925E = {
 			isa = PBXGroup;
 			children = (
+				BF631D901BDDD65500EC41E6 /* .gitignore */,
 				BF2B88651BDDD26D00F0925E /* milkstachiodraft */,
 				BF2B887D1BDDD26D00F0925E /* milkstachiodraftTests */,
 				BF2B88881BDDD26D00F0925E /* milkstachiodraftUITests */,
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF631D911BDDD65500EC41E6 /* .gitignore in Resources */,
 				BF2B88741BDDD26D00F0925E /* LaunchScreen.storyboard in Resources */,
 				BF2B88711BDDD26D00F0925E /* Assets.xcassets in Resources */,
 				BF2B886C1BDDD26D00F0925E /* Main.storyboard in Resources */,
@@ -508,6 +512,7 @@
 				BF2B88901BDDD26D00F0925E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF2B88911BDDD26D00F0925E /* Build configuration list for PBXNativeTarget "milkstachiodraftTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				BF2B88931BDDD26D00F0925E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF2B88941BDDD26D00F0925E /* Build configuration list for PBXNativeTarget "milkstachiodraftUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +530,7 @@
 				BF2B88961BDDD26D00F0925E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
