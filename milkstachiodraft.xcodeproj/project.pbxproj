@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BF2B88671BDDD26D00F0925E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B88661BDDD26D00F0925E /* AppDelegate.swift */; };
-		BF2B88691BDDD26D00F0925E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B88681BDDD26D00F0925E /* ViewController.swift */; };
 		BF2B886C1BDDD26D00F0925E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2B886A1BDDD26D00F0925E /* Main.storyboard */; };
 		BF2B886F1BDDD26D00F0925E /* milkstachiodraft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF2B886D1BDDD26D00F0925E /* milkstachiodraft.xcdatamodeld */; };
 		BF2B88711BDDD26D00F0925E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2B88701BDDD26D00F0925E /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		BF2B88631BDDD26D00F0925E /* milkstachiodraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = milkstachiodraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2B88661BDDD26D00F0925E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF2B88681BDDD26D00F0925E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF2B886B1BDDD26D00F0925E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF2B886E1BDDD26D00F0925E /* milkstachiodraft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = milkstachiodraft.xcdatamodel; sourceTree = "<group>"; };
 		BF2B88701BDDD26D00F0925E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,8 +97,10 @@
 		BF2B88651BDDD26D00F0925E /* milkstachiodraft */ = {
 			isa = PBXGroup;
 			children = (
+				BF2B88971BDDD39100F0925E /* Models */,
+				BF2B88981BDDD39200F0925E /* View Controllers */,
+				BF2B88991BDDD39200F0925E /* Views */,
 				BF2B88661BDDD26D00F0925E /* AppDelegate.swift */,
-				BF2B88681BDDD26D00F0925E /* ViewController.swift */,
 				BF2B886A1BDDD26D00F0925E /* Main.storyboard */,
 				BF2B88701BDDD26D00F0925E /* Assets.xcassets */,
 				BF2B88721BDDD26D00F0925E /* LaunchScreen.storyboard */,
@@ -126,6 +126,27 @@
 				BF2B888B1BDDD26D00F0925E /* Info.plist */,
 			);
 			path = milkstachiodraftUITests;
+			sourceTree = "<group>";
+		};
+		BF2B88971BDDD39100F0925E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF2B88981BDDD39200F0925E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BF2B88991BDDD39200F0925E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF2B88691BDDD26D00F0925E /* ViewController.swift in Sources */,
 				BF2B886F1BDDD26D00F0925E /* milkstachiodraft.xcdatamodeld in Sources */,
 				BF2B88671BDDD26D00F0925E /* AppDelegate.swift in Sources */,
 			);
